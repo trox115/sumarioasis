@@ -3,4 +3,8 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
+.Title img {
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
