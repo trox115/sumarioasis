@@ -10,39 +10,99 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet"> 
     <title>Casa para venda em Carrazeda de Ansiães</title>
   </head>
   <body>
+    <div class="top-bar">
     <div class="container-fluid">
       <div class="row">
-            <div class="col-lg-3 col-md-3">
-                    <section>
+            <div class="col-lg-2 col-md-2 col-sm-12">
                       <div class="Title">
-                        <h1>Logo</h1>
+                        <img src="./style/img/logo.png" alt="logo carrazeda">
                       </div>
-                    </section>
+                   
             </div>
-        <div class="col-lg-9 col-md-9">
+        <div class="col-lg-10 col-md-10 col-sm-12">
           <section>
             <div class="Title">
-              <h1>Casa para venda em Carrazeda de Ansiães</h1>
+              <h1>T2 e T3 para venda em Carrazeda de Ansiães</h1>
             </div>
           </section>
         </div>
       </div>
     </div>
-
+  </div>
+  <div class="info">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6">
-                this is for text
+            <div class="col-md-6 col-sm-12">
+                <div class="info-text">
+                <h3>Casas para vender em carrazeda de Ansiães, gostaria de saber mais? Insira as suas informações no formulário ou contacte-nos através do número 931 453 013</h3>  
+                
+                </div>
             </div>
 
             <div class="col-md-6">
-                    this is for Form
+              <div class="form-sec">
+                    <form>
+                        Nome*: <input type="text" name="name"><br> 
+                        Email*: <input type="text" name="email"><br>
+                        Telefone: <input type="text" name="phone"><br>
+                        <input type="submit" value="Quero saber mais">
+                    </form>
                 </div>
+              </div>
         </div>
     </div>
+  </div>
+
+
+
+
+
+  <!-- Gallery -->
+  <div class="container">
+
+    <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Mais imagens</h1>
+  
+    <hr class="mt-2 mb-5">
+  
+    <div class="row text-center text-lg-left">
+  
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/M185_qYH8vg/400x300" alt="">
+            </a>
+      </div>
+      
+    </div>
+  
+  </div>
+
+
+
+  <!-- Gallery End -->
+
+
+
+  <div class="footer">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
@@ -50,6 +110,7 @@
             </div>
         </div>
     </div>
+  </div>
   </body>
   <script
     src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -66,4 +127,10 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"
   ></script>
+
+  <script>
+$(function () {
+$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+});
+</script>
 </html>
