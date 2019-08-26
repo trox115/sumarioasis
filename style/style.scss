@@ -76,6 +76,36 @@ body {
 }
 
 .footer {
-  background: red;
-  margin-top: 20px;
+  background: gray;
+  height: 100px;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  
+ p{
+   line-height: 100px;
+   vertical-align: middle;
+ }
+  a{
+    color:orangered;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+   li{
+     align-content: space-between;
+     margin-left:2%;
+     font-size: 50px;
+     line-height: 100px;
+     vertical-align: middle;
+     i{
+       color:blue;
+       
+       &:hover{
+         color:orangered;
+       }
+     }
+   }
+  }
 }
