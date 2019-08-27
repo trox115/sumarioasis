@@ -134,6 +134,12 @@ body {
   color: orangered;
 }
 
+@media screen and (min-width: 320px) {
+  .info .form-sec form {
+    width: 100%;
+  }
+}
+
 .container h1 {
   text-align: center;
   color: orangered;
