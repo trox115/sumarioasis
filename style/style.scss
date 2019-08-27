@@ -1,7 +1,8 @@
+$break-small: 320px;
 body {
   background: url(./img/06.jpg);
-  background-size: 100%;
-
+  background-size: cover;
+  background-color: rgba(255, 204, 102, 0.5);
   background-repeat: no-repeat;
 }
 
@@ -36,32 +37,34 @@ body {
   align-content: flex-end;
   align-items: center;
   justify-content: center;
+  display: flex;
+  align-items: center;
   .info-text {
-    background: rgba(255, 204, 102, 0.2);
-    border: 1px solid orangered;
+    margin-top: auto;
+    margin-bottom: auto;
+   
     align-content: flex-start;
     height: 100%;
     text-align: justify;
     vertical-align: middle;
-    justify-content: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-    
 
+    flex-direction: column;
+    width: 100%;    
+    color:orangered;
     align-items: center;
+   
   }
   .form-sec {
-    background: rgba(255, 204, 102, 0.2);
-    border: 1px solid orangered;
+    
     width: 100%;
     align-content: flex-end;
     align-items: flex-end;
     justify-content: flex-end;
     height: 100%;
     form {
+      color:orangered;
       margin-left: auto;
+      margin-right: auto;
       justify-content: center;
       align-items: center;
       width: 50%;
@@ -70,11 +73,38 @@ body {
       input {
         width: 100%;
         margin-top: 5px;
+        border-radius: 10px;
       }
+      input[type=submit] {
+        padding:5px 15px; 
+        background:orangered;
+        color:white;
+        border:0 none;
+        cursor:pointer;
+        -webkit-border-radius: 5px;
+        border-radius: 5px; 
+        &:hover{
+          background: white;
+          color:orangered;
+        }
+    }
+    @media screen and (min-width: $break-small) {
+      width: 100%;
+    }
     }
   }
 }
-
+.container{
+  h1 {
+    text-align: center;
+    color: orangered;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .footer {
   background: gray;
   height: 100px;
