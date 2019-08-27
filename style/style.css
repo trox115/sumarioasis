@@ -140,7 +140,7 @@ body {
   }
 }
 
-.container h1 {
+.container h1, .container h2 {
   text-align: center;
   color: orangered;
   font-family: "Lexend Deca", sans-serif;
