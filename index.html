@@ -48,7 +48,7 @@
 
             <div class="col-md-6">
               <div class="form-sec">
-                    <form action="https://formspree.io/tofernandes67@gmail.com" method="POST" >
+                    <form name="submit-to-google-sheet" >
                        <strong> Nome*: </strong><input type="text" name="name" placeholder="O seu nome"><br> 
                         <strong>Email*: </strong><input type="text" name="email" placeholder="o seu email"><br>
                         <strong>Telefone: </strong><input type="text" name="phone" placeholder="O seu telefone"><br>
@@ -162,6 +162,18 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"
   ></script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyF6WM-9_THZwnCxoiX4MjXsuuKrKobS5AX9i6_8JyILqc0VS0/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
 
   <script>
 $(function () {
