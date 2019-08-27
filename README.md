@@ -23,5 +23,5 @@ The live version of this project is on [this link](https://raw.githack.com/trox1
 
 # License
 
-All the source code in the [Sumarioasis] is available for free and you can use it. 
+All the source code in the [Sumarioasis]() is available for free and you can use it. 
 All the images are under a copyright License and you can not use them under any circumstances, as they belong to [Daniela Rebelo](https://www.facebook.com/danielarebeloarquiteta/) and [NF Projetos & Empreendimentos](https://www.facebook.com/NF-Projetos-Empreendimentos-180484209342073/)
