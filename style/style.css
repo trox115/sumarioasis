@@ -33,7 +33,7 @@ body {
   width: 100%;
 }
 
-.top-bar .Title h1 {
+.top-bar .Title h1, .top-bar .Title h2 {
   text-align: center;
   color: orangered;
   font-family: "Lexend Deca", sans-serif;
