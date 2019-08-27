@@ -1,3 +1,4 @@
+$break-small: 320px;
 body {
   background: url(./img/06.jpg);
   background-size: cover;
@@ -86,6 +87,9 @@ body {
           background: white;
           color:orangered;
         }
+    }
+    @media screen and (min-width: $break-small) {
+      width: 100%;
     }
     }
   }
