@@ -1,0 +1,141 @@
+$break-small: 320px;
+body {
+  background: url(./img/06.jpg);
+  background-size: cover;
+  background-color: rgba(255, 204, 102, 0.5);
+  background-repeat: no-repeat;
+}
+
+.top-bar {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .Title {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 100%;
+    }
+
+    h1,h2 {
+      text-align: center;
+      color: orangered;
+      font-family: "Lexend Deca", sans-serif;
+      font-weight: 800;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+.info {
+  margin-top: 50px;
+  display: flex;
+  align-content: flex-end;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  .info-text {
+    margin-top: auto;
+    margin-bottom: auto;
+   
+    align-content: flex-start;
+    height: 100%;
+    text-align: justify;
+    vertical-align: middle;
+
+    flex-direction: column;
+    width: 100%;    
+    color:orangered;
+    align-items: center;
+   
+  }
+  .form-sec {
+    
+    width: 100%;
+    align-content: flex-end;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 100%;
+    form {
+      color:orangered;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      align-content: flex-end;
+      text-align: center;
+      input {
+        width: 100%;
+        margin-top: 5px;
+        border-radius: 10px;
+      }
+      input[type=submit] {
+        padding:5px 15px; 
+        background:orangered;
+        color:white;
+        border:0 none;
+        cursor:pointer;
+        -webkit-border-radius: 5px;
+        border-radius: 5px; 
+        &:hover{
+          background: white;
+          color:orangered;
+        }
+    }
+    @media screen and (max-width: $break-small) {
+      width: 100%;
+    }
+    }
+  }
+}
+.container{
+  h1,h2 {
+    text-align: center;
+    color: orangered;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.footer {
+  background:rgba(128, 128, 128, 0.5);
+  height: 100px;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  
+ p{
+   line-height: 100px;
+   vertical-align: middle;
+ }
+  a{
+    color:orangered;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+   li{
+     align-content: space-between;
+     margin-left:2%;
+     font-size: 50px;
+     line-height: 100px;
+     vertical-align: middle;
+     i{
+       color:blue;
+       
+       &:hover{
+         color:orangered;
+       }
+     }
+   }
+  }
+}
