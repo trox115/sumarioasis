@@ -42,20 +42,20 @@ body {
   .info-text {
     margin-top: auto;
     margin-bottom: auto;
-   
+
     align-content: flex-start;
     height: 100%;
     text-align: justify;
     vertical-align: middle;
 
     flex-direction: column;
-    width: 100%;    
+    width: 100%;
     color:orangered;
     align-items: center;
-   
+
   }
   .form-sec {
-    
+
     width: 100%;
     align-content: flex-end;
     align-items: flex-end;
@@ -76,13 +76,13 @@ body {
         border-radius: 10px;
       }
       input[type=submit] {
-        padding:5px 15px; 
+        padding:5px 15px;
         background:orangered;
         color:white;
         border:0 none;
         cursor:pointer;
         -webkit-border-radius: 5px;
-        border-radius: 5px; 
+        border-radius: 5px;
         &:hover{
           background: white;
           color:orangered;
@@ -111,7 +111,7 @@ body {
   display:flex;
   justify-content: center;
   text-align: center;
-  
+
  p{
    line-height: 100px;
    vertical-align: middle;
@@ -131,7 +131,7 @@ body {
      vertical-align: middle;
      i{
        color:blue;
-       
+
        &:hover{
          color:orangered;
        }
@@ -139,3 +139,16 @@ body {
    }
   }
 }
+
+.butao {
+  padding:5px 15px;
+  background:orangered;
+  color:white;
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  &:hover{
+    background: white;
+    color:orangered;
+  }

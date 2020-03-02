@@ -203,4 +203,14 @@ body {
 .footer ul li i:hover {
   color: orangered;
 }
+
+.butao {
+  padding:5px 15px;
+  background:orangered;
+  color:white;
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
 /*# sourceMappingURL=style.css.map */
